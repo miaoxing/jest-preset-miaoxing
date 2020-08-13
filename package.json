@@ -1,0 +1,11 @@
+{
+  "name": "jest-preset-miaoxing",
+  "version": "0.1.0",
+  "main": "index.js",
+  "author": "twinh",
+  "license": "MIT",
+  "dependencies": {
+    "babel-jest": "^26.3.0",
+    "ts-jest": "^26.2.0"
+  }
+}
