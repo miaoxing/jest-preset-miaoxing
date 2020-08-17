@@ -1,3 +1,13 @@
+const fs = require('fs');
+
+function resolveFile(file) {
+  if (fs.existsSync(process.cwd() + '/' + file)) {
+    return '<rootDir>/' + file;
+  } else {
+    return __dirname + '/' + file;
+  }
+}
+
 module.exports = {
   transform: {
     '^.+\\.ts?$': 'ts-jest',
@@ -14,8 +24,15 @@ module.exports = {
       isolatedModules: true,
     },
   },
+  testPathIgnorePatterns: [
+    '/node_modules/',
+    '<rootDir>/plugins/'
+  ],
+  setupFilesAfterEnv: [
+    resolveFile('tests/setup.js')
+  ],
   moduleNameMapper: {
-    '\\.(css|less|scss)$': '<rootDir>/__mocks__/styleMock.js',
-    '\\.(gif|ttf|eot|svg)$': '<rootDir>/__mocks__/fileMock.js',
+    '\\.(css|less|scss)$': resolveFile('tests/mocks/styleMock.js'),
+    '\\.(gif|ttf|eot|svg)$': resolveFile('tests/mocks/fileMock.js'),
   },
 };
