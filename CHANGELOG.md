@@ -1,3 +1,10 @@
+## [0.2.1](https://github.com/miaoxing/jest-preset-miaoxing/compare/jest-preset-miaoxing@0.2.0...jest-preset-miaoxing@0.2.1) (2020-09-25)
+
+
+### Features
+
+* setup.js 增加常用的 window.matchMedia 方法 ([867359e](https://github.com/miaoxing/jest-preset-miaoxing/commit/867359e8691430bb101cb8b553ffcdcf01192787))
+
 # [0.2.0](https://github.com/miaoxing/jest-preset-miaoxing/compare/jest-preset-miaoxing@0.1.0...jest-preset-miaoxing@0.2.0) (2020-08-17)
 
 
