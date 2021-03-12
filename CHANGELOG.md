@@ -1,3 +1,10 @@
+## [0.2.2](https://github.com/miaoxing/jest-preset-miaoxing/compare/jest-preset-miaoxing@0.2.1...jest-preset-miaoxing@0.2.2) (2021-03-12)
+
+
+### Bug Fixes
+
+* 更新前端包依赖 ([b11a42f](https://github.com/miaoxing/jest-preset-miaoxing/commit/b11a42f543ca432c46b5d46eb08b09e8dcf92e1f))
+
 ## [0.2.1](https://github.com/miaoxing/jest-preset-miaoxing/compare/jest-preset-miaoxing@0.2.0...jest-preset-miaoxing@0.2.1) (2020-09-25)
 
 
