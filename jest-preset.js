@@ -26,7 +26,8 @@ module.exports = {
   },
   testPathIgnorePatterns: [
     '/node_modules/',
-    '<rootDir>/plugins/'
+    '<rootDir>/plugins/',
+    '<rootDir>/vendor/',
   ],
   setupFilesAfterEnv: [
     resolveFile('tests/setup.js')
