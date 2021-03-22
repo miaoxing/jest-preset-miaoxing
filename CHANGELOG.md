@@ -1,3 +1,10 @@
+## [0.2.3](https://github.com/miaoxing/jest-preset-miaoxing/compare/jest-preset-miaoxing@0.2.2...jest-preset-miaoxing@0.2.3) (2021-03-22)
+
+
+### Bug Fixes
+
+* 忽略其他 PHP 类库中的 JS 测试文件 ([8a711f8](https://github.com/miaoxing/jest-preset-miaoxing/commit/8a711f8055b4266e337e494416e336aefa9c4846))
+
 ## [0.2.2](https://github.com/miaoxing/jest-preset-miaoxing/compare/jest-preset-miaoxing@0.2.1...jest-preset-miaoxing@0.2.2) (2021-03-12)
 
 
