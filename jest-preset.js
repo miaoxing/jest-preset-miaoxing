@@ -30,7 +30,7 @@ module.exports = {
     '<rootDir>/vendor/',
   ],
   setupFilesAfterEnv: [
-    resolveFile('tests/setup.js')
+    resolveFile('tests/setup.js'),
   ],
   moduleNameMapper: {
     '\\.(css|less|scss)$': resolveFile('tests/mocks/styleMock.js'),
