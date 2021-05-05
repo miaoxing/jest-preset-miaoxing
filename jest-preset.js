@@ -10,7 +10,7 @@ function resolveFile(file) {
 
 module.exports = {
   transform: {
-    '^.+\\.ts?$': 'ts-jest',
+    '^.+\\.tsx?$': 'ts-jest',
     '^.+\\.jsx?$': 'babel-jest',
   },
   testEnvironment: 'jsdom',
