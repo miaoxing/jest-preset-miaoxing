@@ -15,8 +15,12 @@ module.exports = {
   },
   testEnvironment: 'jsdom',
   testTimeout: 10000,
-  // Allow /node_modules/ for CI testing
-  transformIgnorePatterns: [],
+  // Allow transform source code in /node_modules/
+  transformIgnorePatterns: [
+    // 不转换 @babel/plugin-transform-runtime 加载的 core-js-pure，
+    // 以免出现 TypeError: (0 , _concat.default) is not a function 之类的错误
+    'node_modules/core-js-pure',
+  ],
   // Fix TypeError: Unable to require `.d.ts` file.
   // https://github.com/kulshekhar/ts-jest/issues/950
   globals: {
