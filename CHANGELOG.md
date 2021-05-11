@@ -1,3 +1,16 @@
+## [0.2.4](https://github.com/miaoxing/jest-preset-miaoxing/compare/jest-preset-miaoxing@0.2.3...jest-preset-miaoxing@0.2.4) (2021-05-11)
+
+
+### Bug Fixes
+
+* **jest-preset-miaoxing:** 不转换 `@babel/plugin-transform-runtime` 加载的 `core-js-pure` ([d36ab06](https://github.com/miaoxing/jest-preset-miaoxing/commit/d36ab0682ae08d5f514c3f10609348a5b805e595))
+* 当外部指定 `testEnvironment` 为 `node` 时，没有 `window` 对象则不初始化 `matchMedia` ([d3dc1d6](https://github.com/miaoxing/jest-preset-miaoxing/commit/d3dc1d69941aead6115ebdc0275166a233d3410c))
+
+
+### Features
+
+* **jest:** 支持 `tsx` 格式 ([c7d08ce](https://github.com/miaoxing/jest-preset-miaoxing/commit/c7d08ce9ba6a73242237a62b120ede7b15f5ab3f))
+
 ## [0.2.3](https://github.com/miaoxing/jest-preset-miaoxing/compare/jest-preset-miaoxing@0.2.2...jest-preset-miaoxing@0.2.3) (2021-03-22)
 
 
