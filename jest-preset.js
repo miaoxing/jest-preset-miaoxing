@@ -27,6 +27,10 @@ module.exports = {
     'ts-jest': {
       isolatedModules: true,
     },
+    // 兼容 taro 3.3
+    ENABLE_INNER_HTML: true,
+    ENABLE_ADJACENT_HTML: true,
+    ENABLE_SIZE_APIS: true
   },
   testPathIgnorePatterns: [
     '/node_modules/',
