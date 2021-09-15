@@ -30,7 +30,10 @@ module.exports = {
     // 兼容 taro 3.3
     ENABLE_INNER_HTML: true,
     ENABLE_ADJACENT_HTML: true,
-    ENABLE_SIZE_APIS: true
+    ENABLE_SIZE_APIS: true,
+    // 兼容 taro 3.3.4
+    ENABLE_TEMPLATE_CONTENT: true,
+    ENABLE_CLONE_NODE: true,
   },
   testPathIgnorePatterns: [
     '/node_modules/',
