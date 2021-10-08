@@ -47,6 +47,6 @@ module.exports = {
     '\\.(css|less|scss)$': resolveFile('tests/mocks/styleMock.js'),
     '\\.(gif|ttf|eot|svg)$': resolveFile('tests/mocks/fileMock.js'),
     '@tarojs/components': '@tarojs/components/dist-h5/react',
-    '@tarojs/taro': '@tarojs/taro-h5'
+    '@tarojs/taro': '@tarojs/taro-h5',
   },
 };
