@@ -1,3 +1,12 @@
+## [0.2.5](https://github.com/miaoxing/jest-preset-miaoxing/compare/jest-preset-miaoxing@0.2.4...jest-preset-miaoxing@0.2.5) (2021-10-28)
+
+
+### Features
+
+* **jest-preset:** 增加 `ENABLE_TEMPLATE_CONTENT` 和 `ENABLE_CLONE_NODE` 常量，兼容 Taro 3.3.4+ ([058a433](https://github.com/miaoxing/jest-preset-miaoxing/commit/058a433db7c4263042c29c9e0a8cc535d14b519f))
+* **jest-preset-miaoxing:** 兼容 taro 3.3 ([8fcbbd1](https://github.com/miaoxing/jest-preset-miaoxing/commit/8fcbbd138cb24c52e4d359af7744650efea858a9))
+* **jest-preset-miaoxing:** 替换 `@tarojs/components` 和 `@tarojs/taro` 为 h5 ([dd30691](https://github.com/miaoxing/jest-preset-miaoxing/commit/dd30691ad3c3d6f54cff28d5aacf790987f7cd57))
+
 ## [0.2.4](https://github.com/miaoxing/jest-preset-miaoxing/compare/jest-preset-miaoxing@0.2.3...jest-preset-miaoxing@0.2.4) (2021-05-11)
 
 
