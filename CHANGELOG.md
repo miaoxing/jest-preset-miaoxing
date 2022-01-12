@@ -1,3 +1,16 @@
+# [0.3.0](https://github.com/miaoxing/jest-preset-miaoxing/compare/jest-preset-miaoxing@0.2.5...jest-preset-miaoxing@0.3.0) (2022-01-12)
+
+
+### Features
+
+* **jest-preset-miaoxing:** 支持替换更多图片，字体，音频，视频 ([e3d73b4](https://github.com/miaoxing/jest-preset-miaoxing/commit/e3d73b489a3a679c1230d517cf9100ab62601dcc))
+* 更新 typescript 到 `^4.5.2` ([dc1bdaa](https://github.com/miaoxing/jest-preset-miaoxing/commit/dc1bdaa7ebb4645858242f05e3963a3e8d85fcdf))
+
+
+### BREAKING CHANGES
+
+* 更新 typescript 到 `^4.5.2`
+
 ## [0.2.5](https://github.com/miaoxing/jest-preset-miaoxing/compare/jest-preset-miaoxing@0.2.4...jest-preset-miaoxing@0.2.5) (2021-10-28)
 
 
