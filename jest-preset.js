@@ -34,6 +34,11 @@ module.exports = {
     // 兼容 taro 3.3.4
     ENABLE_TEMPLATE_CONTENT: true,
     ENABLE_CLONE_NODE: true,
+    // 测试时使用推荐的配置
+    miaoxing: {
+      routerMode: 'browser',
+      apiRewrite: true,
+    },
   },
   testPathIgnorePatterns: [
     '/node_modules/',
