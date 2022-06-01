@@ -1,3 +1,10 @@
+## [0.3.1](https://github.com/miaoxing/jest-preset-miaoxing/compare/jest-preset-miaoxing@0.3.0...jest-preset-miaoxing@0.3.1) (2022-06-01)
+
+
+### Features
+
+* **jest-preset-miaoxing:** 测试时使用推荐的配置 ([2044c82](https://github.com/miaoxing/jest-preset-miaoxing/commit/2044c82ca6a41058866ba44cd7182425e9e1b002))
+
 # [0.3.0](https://github.com/miaoxing/jest-preset-miaoxing/compare/jest-preset-miaoxing@0.2.5...jest-preset-miaoxing@0.3.0) (2022-01-12)
 
 
